@@ -9,6 +9,18 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 06c53949f43bf704a84e6b238a949fe0
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
+    path: Assets/Scenes/FrontSchool.unity
     guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/HallWay.unity
+    guid: 7baa51af9a083a94ebb1d6d899c07aa4
+  - enabled: 1
+    path: Assets/Scenes/ClassRoom1.unity
+    guid: 7c6f09b660487a84ab536daee1801ca1
+  - enabled: 1
+    path: Assets/Scenes/ClassRoom2.unity
+    guid: 41df2e6a36ec7034b81a0338695a6cd6
+  - enabled: 1
+    path: Assets/Scenes/ClassRoom3.unity
+    guid: 856e844ef3faddd4188a3ffa12293016
   m_configObjects: {}
