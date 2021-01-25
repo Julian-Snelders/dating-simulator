@@ -237,7 +237,7 @@ RectTransform:
   m_LocalScale: {x: 0.5616441, y: 0.70719665, z: 1}
   m_Children: []
   m_Father: {fileID: 617457283}
-  m_RootOrder: 4
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -568,7 +568,7 @@ RectTransform:
   m_LocalScale: {x: 0.79332227, y: 0.34477252, z: 1}
   m_Children: []
   m_Father: {fileID: 617457283}
-  m_RootOrder: 6
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -700,7 +700,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 617457283}
-  m_RootOrder: 3
+  m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -968,12 +968,11 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_Children:
   - {fileID: 555841531}
-  - {fileID: 1803284755}
-  - {fileID: 1420239382}
   - {fileID: 458324349}
   - {fileID: 125141438}
-  - {fileID: 763523909}
   - {fileID: 435712698}
+  - {fileID: 1803284755}
+  - {fileID: 1420239382}
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -982,138 +981,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
---- !u!1 &763523908
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 763523909}
-  - component: {fileID: 763523912}
-  - component: {fileID: 763523911}
-  - component: {fileID: 763523910}
-  m_Layer: 5
-  m_Name: Classroom3
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &763523909
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 763523908}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1.25, y: 1.2625, z: 1}
-  m_Children: []
-  m_Father: {fileID: 617457283}
-  m_RootOrder: 5
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -866, y: -51}
-  m_SizeDelta: {x: 145.7047, y: 775.447}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &763523910
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 763523908}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 763523911}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1672205056}
-        m_TargetAssemblyTypeName: GameManagement, Assembly-CSharp
-        m_MethodName: ClassRoom3
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
---- !u!114 &763523911
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 763523908}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.3137255}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 10905, guid: 0000000000000000f000000000000000, type: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &763523912
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 763523908}
-  m_CullTransparentMesh: 1
 --- !u!1 &857595169
 GameObject:
   m_ObjectHideFlags: 0
@@ -1385,7 +1252,7 @@ RectTransform:
   - {fileID: 880415479}
   - {fileID: 222342459}
   m_Father: {fileID: 617457283}
-  m_RootOrder: 2
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
@@ -1631,7 +1498,7 @@ GameObject:
   - component: {fileID: 1803284757}
   - component: {fileID: 1803284756}
   m_Layer: 5
-  m_Name: isis karakter
+  m_Name: fee karakter
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1650,12 +1517,12 @@ RectTransform:
   m_Children:
   - {fileID: 1466226413}
   m_Father: {fileID: 617457283}
-  m_RootOrder: 1
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 867, y: -159}
-  m_SizeDelta: {x: 791.4, y: 784.2}
+  m_AnchoredPosition: {x: -315, y: -114}
+  m_SizeDelta: {x: 466.9, y: 607.9}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1803284756
 MonoBehaviour:
@@ -1670,11 +1537,29 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogue:
-    name: Chris baaten
+    name: 
     sentences:
-    - Ohh hello Sintpai... Long time no see.
-    - uhh how are you doing?
-    - 
+    - 'INK: H-hey Sintpai! L-long time no see'
+    - "INK: How was you\u2019re weekend? Have you done some fun things?  I-I saw
+      on\r\nyou\u2019re instagram that you had some deadlines.."
+    - "Sintpai: yes that\u2019s right, I had a lot of homework for the Maya class.
+      But I was able to reach my\r\ndeadline. How was you\u2019re weekend?"
+    - "INK: N-nice of you to ask! anyway\u2026  \nI-I had training for the\r swimming
+      team.\nI Have training again in a minute.\nI hope I will be selected.. \nThe
+      student\u2019s who signed\r up are so good.. "
+    - "Sintpai: Wow I didn\u2019t know our school had a swimming team. That\u2019s
+      pretty cool!"
+    - 'INK: Y-yeah mijn my mom signed me up , She said it would be good for my self
+
+      confidence. '
+    - "Sintpai: By the way, I saw something on instagram yesterday. SintLucas Gespot
+      had posted a post\r\ndescribing someone that sounded a lot like me.\n I even
+      got tagged a few times.\r"
+    - "INK: \u2026\u2026\u2026. \nT-that i-is\u2026 s-so cool! "
+    - "Sintpai: What\u2019s wrong? Do you know who\u2019s behind the post?"
+    - "INK: \u2026uhmm\u2026"
+    - "Sintpai: Come on, say it. I am super curious. \ni have to go to my class in
+      five minutes!"
 --- !u!114 &1803284757
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1751,7 +1636,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: bd214218ec3df43419e00f8d2c605c92, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 6d071180e7676fb49abed6052dd93f36, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
